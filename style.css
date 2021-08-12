@@ -1,0 +1,150 @@
+* { /* Reset the space of the webpage */
+   margin: 15px;
+   padding: 5px;
+}
+
+body {
+ background-color: #3C91E6;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: rgb(1213, 245, 138);
+  text-align: center
+}
+p{
+  text-align: center;
+  font-size: 20px;
+  background-color: #93C2F1;
+}
+h2{
+  text-align: center;
+color: rgb(213, 245, 138);
+}
+.coral{
+  text-align: center;
+  font-size: 20px;
+}
+.bleaching{
+  text-align: center;
+  font-size: 20px;
+}
+
+.stop{
+  text-align: center;
+  text-decoration: underline
+}
+
+.heading{
+  text-align: center;
+}
+
+.fact{
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+}
+/* STYLE IMAGES */
+#death{
+  width: 500px;  
+ Border-radius: 20%;
+ border: 7px solid #FFC300;
+}
+#death{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#coral2{
+  width: 500px;
+  border-radius: 20%;
+  border: 7px solid #FFC300;
+  display: inline;
+  }
+
+#bleach{
+  width: 500px;
+  border-radius: 20%;
+  border: 7px solid #FFC300;
+   display: inline;
+
+}
+/* list is not the way I want it*/
+
+.list2{
+text-align: center;
+}
+
+/* STYLE NAV BAR */
+#navbar {
+  overflow: hidden;
+  background-color: #FFC300;;
+}
+
+/* Navbar links */
+#navbar a {
+  float: Center;
+  color: #008d3f;
+  text-align: center;
+  text-decoration: underline;
+}
+ #navbar{
+   text-align: center;
+ }
+
+li{
+  display: inline;
+}
+li{
+  display: inline;
+}
+ul{
+  list-style: none;
+}
+
+li a:hover {
+  background-color: rgb(248, 164, 38)
+
+}
+/* Page content */
+.content {
+  padding: 16px;
+ padding-bottom: 17px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 60%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 6px;
+}
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+.list2{
+  text-align: center;
+  font-size: 20px;
+  background-color: #93C2F1;
+}
+/* header */
+
+.header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6px;
+  text-align: center;
+  background: #0A2463;
+
+  
+  color: white;
+  font-size: 40px;
+  font-family: Lato;
+}
